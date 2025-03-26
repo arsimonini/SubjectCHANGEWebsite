@@ -96,3 +96,12 @@ td:nth-child(even) {
     text-align: center;
 }
 
+.blogPics {
+    width: 25%;
+    height: auto;
+}
+.blogText {
+    color: white;
+    font-size: 18px;
+}
+
