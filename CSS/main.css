@@ -1,0 +1,93 @@
+.rubik-glitch-regular {
+    font-family: "Rubik Glitch", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.creepster-regular {
+    font-family: "Creepster", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+
+/* Nav Bar */
+#NavBar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+    background-color: #162a68;
+}
+#NavBar li {
+    float: left;
+    font-size: 20px;
+}
+#NavBar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#NavBar li a:hover:not(.active) {
+    background-color: #1f3f9e;
+}
+
+.active {
+    background-color: rgb(31, 63, 158);
+}
+
+body {
+    background-color: #171108;
+}
+
+#MainTitle {
+    text-align: center;
+    color:white;
+    font-size: 50px;
+    font-family: Creepster, system-ui;
+}
+
+#standardText {
+    text-align: center;
+    color:white;
+    font-size: 50px;
+}
+
+table{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+    color: #4B3432;
+
+}
+
+th {
+    background-color: lightblue;
+    text-align: center;
+    font-size: large;
+    border: 1px solid black;
+}
+td:nth-child(odd) {
+    background-color: #1f3f9e;
+    border: 1px solid black;
+    text-align: center;
+    color: white;
+    font-size: medium;
+}
+td:nth-child(even) {
+    background-color: #1f3f9e;
+    text-align: center;
+    color: white;
+    font-size: medium;
+    border: 1px solid black;
+}
+
+#AllLinks {
+    text-align: center;
+}
