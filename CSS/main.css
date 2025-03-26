@@ -57,6 +57,10 @@ body {
     color:white;
     font-size: 50px;
 }
+#standardText img{
+    width: 25%;
+    height: auto;
+}
 
 table{
     display: flex;
@@ -91,3 +95,4 @@ td:nth-child(even) {
 #AllLinks {
     text-align: center;
 }
+
