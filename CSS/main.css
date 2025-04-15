@@ -105,3 +105,57 @@ td:nth-child(even) {
     font-size: 18px;
 }
 
+
+
+/* Home Screen Picture Buttons*/
+.aboutMeContainer {
+    position: relative;
+    max-width: 400px;
+    float: left;
+
+    width: 100%;
+
+    padding: 10px;
+}
+.aboutMeContainer img {
+    width: 100%;
+    height: auto;
+}
+* {
+    box-sizing: border-box;
+}
+.aboutMeContainer button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+
+    width: 100%;
+    height: 100%;
+
+
+    background-color: rgba(0, 0, 0, 0);
+    padding: 120px 150px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    font-size:40px;
+    color: rgba(0 ,0, 0, 0);
+    transition-duration: 0.4s;
+    font-family: "Jersey 15", serif;
+}
+.aboutMeContainer button:hover {
+
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
