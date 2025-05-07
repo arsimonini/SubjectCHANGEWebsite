@@ -1,0 +1,90 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content = "width=device-width, initial-scale=1.0">
+    <Title>Subject:CHANGE</Title>
+    <link rel="stylesheet" href="CSS/main.css">
+</head>
+<header>
+    <nav id="NavBar">
+        <ul>
+            <li><a href="index.html"> Home </a></li>
+            <li><a href="designDocsPage.html"> Important Paperwork</a></li>
+            <li><a href="blog.html"> Research Updates </a></li>
+            <li> <a href="artPage.html"> Visual Documentation</a></li>
+            <li> <a href="buildPage.html"> Simulations (Builds)</a></li>
+            <li> <a href="teamInfoPage.html"> Lab Staff</a></li>
+            <!--            <li> <a href="finalDemoPage.html"> Final Test</a></li>-->
+        </ul>
+    </nav>
+</header>
+<body>
+
+<div id ="AllLinks" style = color:White>
+    <h1 id = "MainTitle">Andrew's Portfolio</h1>
+    <h2><a href="./PDFs/Final%20Project%20Portfolio.pdf" download="TreatmentDocument">PDF of Final Portfolio</a></h2>
+    <br/><br/>
+
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Project Reflection</title>
+    </head>
+    <body>
+
+    <h2>Your Role in the Project</h2>
+    <p>
+        I had three main roles in this project. First and foremost, I was the person who was tasked with creating the various scenes and uses for the UI in the game. With this, I ended up creating 7 unique UI elements, and implementing 6 of them. Second to UI, I was tasked with gathering, creating, and implementing many of the sound effects. This included the ambient tracks, the monster calls/shrieks, the footsteps, and the blood/gore sounds. I also created or sourced the pickup and throw sounds. Finally, I was also tasked with creating and updating the website. These updates included in universe blogs, uploading the various builds, keeping up with the artist’ portfolios, and more.
+    </p>
+
+    <br/><br/>
+
+    <h2>The Challenges You Faced</h2>
+    <p>
+        The biggest challenge I faced was with my lack of experience with Unreal Engine. Up to this point, I had mainly developed games inside Unity. In general, it worked better for my understanding and for my capabilities with my laptop. As I’ve found out with the Tutorials, my computer cannot handle/utilize the C++ code in Unreal. This meant that blueprints and HTML were the only coding I was capable of (with relative ease and no weird bugs). Added to my inexperience, I also just didn’t have a lot of time. During D Term I was working on my MQP Paper, a Graduate Class, Project Presentation Day for Two Majors, and Showfest. This made it so I could barely delegate tasks to where they needed to go when they needed to go there.
+    </p>
+
+    <br/><br/>
+
+    <h2>How You Overcame Those Challenges, Including Specific APIs</h2>
+    <p>
+        For how I overcame the first challenge of inexperience, it was honestly just luck being put into a kind and understanding group like I was. With my lack of knowledge, the two other programmers gave me extra time to learn how to do things. They also were willing to help me understand systems I didn’t get like their AI. With that extra patience, I then viewed multiple tutorials on YouTube for how to do general UI, Vignettes, Adding SFX, and making HUDs. With said tutorials, and the ability to try multiple things on the fly to test what worked best, I was able to get through my inexperience (though I’m admittedly still not overly confident)
+    </p>
+    <p>
+        As for my overall workload, believe it or not, I’ve had worse. Whenever I have a lot to do, I tend to just pull long hours for multiple nights in a row. On occasion, I use spreadsheets to mark down how much time I’ve spent on any given project. If I’ve found I’m over prioritizing, I try to pivot to a better pathway forward. All in all, my methodology for overcoming this challenge is “just do it, it needs to get done”.
+    </p>
+
+    <br/><br/>
+
+    <h2>An Architectural Diagram</h2>
+    <img class ="graphPics" src="./Photos/AndrewGraph.png" alt="Env">
+
+    <p>
+        This diagram is an explanation of the connection between the UI elements. The main system involves various scenes interconnected and adding/removing each other from the viewpoint. These include the Title, Credits, and Settings. The Title and Credits don’t have much specificity when it comes to features, however the settings page does. In the Settings page, players use arrow buttons to change the vSync, resolution, window size, and graphics up to various bounds. Afterwards, they then click the apply button to change the settings to their liking. The final option from these three menus is the Titles “Play Game” button which initiates the game loop. From there the player can either toggle the HUD or Pause menu with a push of a button. While the HUD just reappears and disappears, the Pause Menu has options to send the player out of the game loop if wanted. Same thing applies to the Game Win and Game Over screens, though they need special triggers to occur prior. Game Over in particular needs the Vignette to appear and change it’s color to red as it signifies death.
+    </p>
+
+    <br/><br/>
+
+    <h2>Lessons Learned</h2>
+    <p>
+        I honestly think the best thing a student could do is not take IMGD4000 in their last year and do a small project in Unreal prior to class. The reason why I had to take 4000 this year is due to an unfortunate circumstance with my IQP last year that took up time in the term but never let me complete it. Therefore, this year, I was playing catch up with requirements for graduation while also trying to complete an MQP. It was largely unhealthy, and the only way I could cope with it personally was trying to balance my priorities. The best course of action to avoid this issue is to not get oneself into the problem in the first place. Added to that, due to the fact that WPI doesn’t have many courses that teach Unreal, it’s imperative that students learn how to make at least a simple/small demo. That way, when things get hectic (as they absolutely will), they can fall back on their basic understanding.
+    </p>
+
+    <br/><br/>
+
+    <h2>Describe Your Version Control Choice</h2>
+    <p>
+        The group chose to use Git/GitHub as their choice of version control, however they also decided to use a “virtual library card” system. As Unreal Engine does not work well with Git, if a file is changed in two places it creates an impossible to fix merge conflict, people working on the project would take out certain sections like the UI folder or the ThirdPersonCharacter folder. This led to less issues and in general more communication, although, at times it left people with nothing they could push forward on.
+    </p>
+
+    </body>
+    </html>
+
+</div>
+
+
+
+</body>
+</html>

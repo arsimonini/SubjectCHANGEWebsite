@@ -104,6 +104,10 @@ td:nth-child(even) {
     color: white;
     font-size: 18px;
 }
+.graphPics {
+    width: 60%;
+    height: auto;
+}
 
 
 
